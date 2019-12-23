@@ -1,0 +1,428 @@
+dbus-update-activation-environment: setting DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus
+dbus-update-activation-environment: setting DISPLAY=:0
+dbus-update-activation-environment: setting XAUTHORITY=/home/mckrakkin/.Xauthority
+dbus-update-activation-environment: setting QT_ACCESSIBILITY=1
+dbus-update-activation-environment: setting LANG=en_US.UTF-8
+dbus-update-activation-environment: setting GDM_LANG=en_US
+dbus-update-activation-environment: setting DISPLAY=:0
+dbus-update-activation-environment: setting GTK_OVERLAY_SCROLLING=0
+dbus-update-activation-environment: setting XDG_GREETER_DATA_DIR=/var/lib/lightdm-data/mckrakkin
+dbus-update-activation-environment: setting USER=mckrakkin
+dbus-update-activation-environment: setting DESKTOP_SESSION=xubuntu
+dbus-update-activation-environment: setting QT_QPA_PLATFORMTHEME=gtk2
+dbus-update-activation-environment: setting PWD=/home/mckrakkin
+dbus-update-activation-environment: setting HOME=/home/mckrakkin
+dbus-update-activation-environment: setting QT_ACCESSIBILITY=1
+dbus-update-activation-environment: setting XDG_SESSION_TYPE=x11
+dbus-update-activation-environment: setting XDG_DATA_DIRS=/usr/share/xubuntu:/usr/share/xfce4:/usr/local/share:/usr/share:/var/lib/snapd/desktop
+dbus-update-activation-environment: setting XDG_SESSION_DESKTOP=xubuntu
+dbus-update-activation-environment: setting CLUTTER_BACKEND=x11
+dbus-update-activation-environment: setting SHELL=/bin/bash
+dbus-update-activation-environment: setting XDG_SEAT_PATH=/org/freedesktop/DisplayManager/Seat0
+dbus-update-activation-environment: setting IM_CONFIG_PHASE=1
+dbus-update-activation-environment: setting GPG_AGENT_INFO=/run/user/1000/gnupg/S.gpg-agent:0:1
+dbus-update-activation-environment: setting SHLVL=1
+dbus-update-activation-environment: setting LANGUAGE=en_US
+dbus-update-activation-environment: setting GDMSESSION=xubuntu
+dbus-update-activation-environment: setting LOGNAME=mckrakkin
+dbus-update-activation-environment: setting DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus
+dbus-update-activation-environment: setting XDG_RUNTIME_DIR=/run/user/1000
+dbus-update-activation-environment: setting XAUTHORITY=/home/mckrakkin/.Xauthority
+dbus-update-activation-environment: setting XDG_SESSION_PATH=/org/freedesktop/DisplayManager/Session0
+dbus-update-activation-environment: setting XDG_CONFIG_DIRS=/etc/xdg/xdg-xubuntu:/etc/xdg
+dbus-update-activation-environment: setting PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
+dbus-update-activation-environment: setting _=/usr/bin/dbus-update-activation-environment
+
+(xfce4-session:1191): xfce4-session-WARNING **: 15:03:25.601: xfsm_manager_load_session: Something wrong with /home/mckrakkin/.cache/sessions/xfce4-session-mckrakkin-VirtualBox:0, Does it exist? Permissions issue?
+
+(polkit-gnome-authentication-agent-1:1223): GLib-CRITICAL **: 15:03:25.832: g_variant_new_string: assertion 'string != NULL' failed
+
+(polkit-gnome-authentication-agent-1:1223): polkit-gnome-1-WARNING **: 15:03:25.832: Failed to register client: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.SessionManager was not provided by any .service files
+
+(wrapper-2.0:1344): GLib-GIO-CRITICAL **: 15:03:26.818: g_file_new_for_path: assertion 'path != NULL' failed
+
+(wrapper-2.0:1344): GLib-GIO-CRITICAL **: 15:03:26.818: g_file_monitor_file: assertion 'G_IS_FILE (file)' failed
+
+(wrapper-2.0:1344): GLib-GObject-WARNING **: 15:03:26.818: invalid (NULL) pointer instance
+
+(wrapper-2.0:1344): GLib-GObject-CRITICAL **: 15:03:26.818: g_signal_connect_data: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+
+(wrapper-2.0:1344): Gtk-WARNING **: 15:03:26.818: Attempting to add a widget with type GtkToggleButton to a container of type XfcePanelPlugin, but the widget is already inside a container of type XfcePanelPlugin, please remove the widget from its existing container first.
+
+(wrapper-2.0:1344): Gtk-WARNING **: 15:03:26.858: Negative content width -3 (allocation 1, extents 2x2) while allocating gadget (node button, owner GtkToggleButton)
+
+** (wrapper-2.0:1347): WARNING **: 15:03:27.003: No outputs have backlight property
+
+(wrapper-2.0:1349): Gtk-WARNING **: 15:03:27.058: Negative content width -3 (allocation 1, extents 2x2) while allocating gadget (node button, owner PulseaudioButton)
+
+(wrapper-2.0:1347): Gtk-WARNING **: 15:03:27.204: Negative content width -3 (allocation 1, extents 2x2) while allocating gadget (node button, owner PowerManagerButton)
+
+(nm-applet:1256): Gtk-WARNING **: 15:03:27.223: Can't set a parent on widget which has a parent
+
+(wrapper-2.0:1333): Gtk-WARNING **: 15:03:27.263: Negative content width -3 (allocation 1, extents 2x2) while allocating gadget (node button, owner GtkToggleButton)
+WARNING:root:can not import unity GI Namespace Dbusmenu not available
+/usr/lib/python3/dist-packages/blueman/plugins/applet/AppIndicator.py:8: PyGIWarning: AppIndicator3 was imported without specifying a version first. Use gi.require_version('AppIndicator3', '0.1') before import to ensure that the right version gets loaded.
+  from gi.repository import AppIndicator3 as girAppIndicator
+ERROR:dbus.proxies:Introspect error on org.bluez:/: dbus.exceptions.DBusException: org.freedesktop.DBus.Error.TimedOut: Failed to activate service 'org.bluez': timed out (service_start_timeout=25000ms)
+ERROR:dbus.proxies:Introspect error on org.bluez:/org/bluez: dbus.exceptions.DBusException: org.freedesktop.DBus.Error.TimedOut: Failed to activate service 'org.bluez': timed out (service_start_timeout=25000ms)
+ERROR:dbus.proxies:Introspect error on org.bluez:/: dbus.exceptions.DBusException: org.freedesktop.DBus.Error.TimedOut: Failed to activate service 'org.bluez': timed out (service_start_timeout=25000ms)
+
+(xfce4-terminal:1535): Gdk-CRITICAL **: 15:13:31.157: gdk_window_get_window_type: assertion 'GDK_IS_WINDOW (window)' failed
+debconf: DbDriver "passwords" warning: could not open /var/cache/debconf/passwords.dat: Permission denied
+debconf: DbDriver "passwords" warning: could not open /var/cache/debconf/passwords.dat: Permission denied
+
+(/usr/lib/firefox/firefox:13003): dconf-WARNING **: 16:17:07.887: Unable to open /var/lib/snapd/desktop/dconf/profile/user: Permission denied
+[Parent 12925, Gecko_IOThread] WARNING: pipe error (121): Connection reset by peer: file /build/firefox-AWfb_V/firefox-71.0+build5/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 358
+[Parent 12925, Gecko_IOThread] WARNING: pipe error (74): Connection reset by peer: file /build/firefox-AWfb_V/firefox-71.0+build5/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 358
+[Parent 12925, Gecko_IOThread] WARNING: pipe error (82): Connection reset by peer: file /build/firefox-AWfb_V/firefox-71.0+build5/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 358
+Gtk-Message: 16:27:24.763: GtkDialog mapped without a transient parent. This is discouraged.
+exo-desktop-item-edit: "file:///usr/share/applications/firefox.desktop" is not writeable, saving to "/home/mckrakkin/.local/share/applications/firefox.desktop" instead.
+Gtk-Message: 16:28:42.653: GtkDialog mapped without a transient parent. This is discouraged.
+
+(xfwm4:1202): xfwm4-WARNING **: 16:32:35.237: output size (958x918) and logical screen size (958x940) do not match
+
+(xfwm4:1202): xfwm4-WARNING **: 16:36:52.007: output size (958x940) and logical screen size (958x918) do not match
+
+(xfwm4:1202): xfwm4-WARNING **: 16:36:57.394: output size (1175x940) and logical screen size (958x940) do not match
+
+(xfwm4:1202): xfwm4-WARNING **: 16:36:57.403: output size (1175x940) and logical screen size (1116x940) do not match
+
+(xfwm4:1202): xfwm4-WARNING **: 16:36:57.486: output size (1207x940) and logical screen size (1116x940) do not match
+
+(xfwm4:1202): xfwm4-WARNING **: 16:36:57.523: output size (1216x940) and logical screen size (1145x940) do not match
+
+(xfwm4:1202): xfwm4-WARNING **: 16:36:57.568: output size (1216x940) and logical screen size (1145x940) do not match
+
+(xfwm4:1202): xfwm4-WARNING **: 16:36:57.633: output size (1241x940) and logical screen size (1145x940) do not match
+
+(xfwm4:1202): xfwm4-WARNING **: 16:36:57.657: output size (1241x940) and logical screen size (1175x940) do not match
+
+(xfwm4:1202): xfwm4-WARNING **: 16:36:57.723: output size (1252x940) and logical screen size (1175x940) do not match
+
+(xfwm4:1202): xfwm4-WARNING **: 16:36:57.757: output size (1252x940) and logical screen size (1207x940) do not match
+
+(xfwm4:1202): xfwm4-WARNING **: 16:36:57.778: output size (1252x940) and logical screen size (1216x940) do not match
+
+** (xfdesktop:1210): CRITICAL **: 16:36:57.797: xfce_backdrop_loader_closed_cb: assertion 'XFCE_IS_BACKDROP(backdrop)' failed
+
+** (xfdesktop:1210): CRITICAL **: 16:36:57.797: xfce_backdrop_loader_closed_cb: assertion 'XFCE_IS_BACKDROP(backdrop)' failed
+
+** (xfdesktop:1210): CRITICAL **: 16:36:57.801: xfce_backdrop_loader_closed_cb: assertion 'XFCE_IS_BACKDROP(backdrop)' failed
+
+(xfwm4:1202): xfwm4-WARNING **: 16:36:57.811: output size (1252x940) and logical screen size (1241x940) do not match
+
+** (xfdesktop:1210): CRITICAL **: 16:36:57.861: xfce_backdrop_loader_closed_cb: assertion 'XFCE_IS_BACKDROP(backdrop)' failed
+
+(xfwm4:1202): xfwm4-WARNING **: 16:37:12.528: output size (1920x950) and logical screen size (1252x940) do not match
+
+(xfwm4:1202): xfwm4-WARNING **: 16:37:15.410: output size (1252x940) and logical screen size (1920x950) do not match
+
+(xfwm4:1202): xfwm4-WARNING **: 16:37:35.474: output size (1070x940) and logical screen size (1252x940) do not match
+
+(xfwm4:1202): xfwm4-WARNING **: 16:37:35.613: output size (992x940) and logical screen size (1070x940) do not match
+
+(xfwm4:1202): xfwm4-WARNING **: 16:37:35.696: output size (981x940) and logical screen size (1021x940) do not match
+
+(xfwm4:1202): xfwm4-WARNING **: 16:37:35.700: output size (981x940) and logical screen size (1021x940) do not match
+
+(xfwm4:1202): xfwm4-WARNING **: 16:37:35.737: output size (981x940) and logical screen size (992x940) do not match
+
+(xfwm4:1202): xfwm4-WARNING **: 16:37:35.817: output size (956x940) and logical screen size (981x940) do not match
+
+** (xfdesktop:1210): CRITICAL **: 16:37:35.827: xfce_backdrop_loader_closed_cb: assertion 'XFCE_IS_BACKDROP(backdrop)' failed
+
+** (xfdesktop:1210): CRITICAL **: 16:37:35.827: xfce_backdrop_loader_closed_cb: assertion 'XFCE_IS_BACKDROP(backdrop)' failed
+
+** (xfdesktop:1210): CRITICAL **: 16:37:35.909: xfce_backdrop_loader_closed_cb: assertion 'XFCE_IS_BACKDROP(backdrop)' failed
+
+** (xfdesktop:1210): CRITICAL **: 16:37:35.909: xfce_backdrop_loader_closed_cb: assertion 'XFCE_IS_BACKDROP(backdrop)' failed
+
+** (xfdesktop:1210): CRITICAL **: 16:37:35.909: xfce_backdrop_loader_closed_cb: assertion 'XFCE_IS_BACKDROP(backdrop)' failed
+
+(xfwm4:1202): xfwm4-WARNING **: 16:37:37.144: output size (956x858) and logical screen size (956x940) do not match
+
+(xfwm4:1202): xfwm4-WARNING **: 16:37:37.398: output size (956x857) and logical screen size (956x858) do not match
+
+(xfwm4:1202): xfwm4-WARNING **: 16:37:48.405: output size (1065x857) and logical screen size (956x857) do not match
+
+(xfwm4:1202): xfwm4-WARNING **: 16:37:49.707: output size (906x857) and logical screen size (1065x857) do not match
+
+(xfwm4:1202): xfwm4-WARNING **: 16:38:11.832: output size (1103x857) and logical screen size (906x857) do not match
+
+(xfwm4:1202): xfwm4-WARNING **: 16:38:11.855: output size (1133x857) and logical screen size (1103x857) do not match
+
+** (xfdesktop:1210): CRITICAL **: 16:38:11.866: xfce_backdrop_loader_closed_cb: assertion 'XFCE_IS_BACKDROP(backdrop)' failed
+
+(xfwm4:1202): xfwm4-WARNING **: 16:38:11.962: output size (1191x857) and logical screen size (1133x857) do not match
+
+(xfwm4:1202): xfwm4-WARNING **: 16:38:12.041: output size (1213x857) and logical screen size (1191x857) do not match
+
+(xfwm4:1202): xfwm4-WARNING **: 16:38:12.091: output size (1225x857) and logical screen size (1213x857) do not match
+
+(xfwm4:1202): xfwm4-WARNING **: 16:38:12.191: output size (1227x857) and logical screen size (1225x857) do not match
+
+** (xfdesktop:1210): CRITICAL **: 16:38:12.319: xfce_backdrop_loader_closed_cb: assertion 'XFCE_IS_BACKDROP(backdrop)' failed
+
+** (xfdesktop:1210): CRITICAL **: 16:38:12.319: xfce_backdrop_loader_closed_cb: assertion 'XFCE_IS_BACKDROP(backdrop)' failed
+
+(xfwm4:1202): xfwm4-WARNING **: 16:38:13.134: output size (1298x857) and logical screen size (1227x857) do not match
+
+(xfwm4:1202): xfwm4-WARNING **: 16:38:13.367: output size (1302x857) and logical screen size (1298x857) do not match
+
+(xfwm4:1202): xfwm4-WARNING **: 16:38:13.647: output size (1312x857) and logical screen size (1302x857) do not match
+
+(xfwm4:1202): xfwm4-WARNING **: 16:38:14.114: output size (1409x857) and logical screen size (1312x857) do not match
+
+(xfwm4:1202): xfwm4-WARNING **: 16:38:14.295: output size (1448x857) and logical screen size (1409x857) do not match
+
+(xfwm4:1202): xfwm4-WARNING **: 16:38:14.301: output size (1448x857) and logical screen size (1439x857) do not match
+
+(xfwm4:1202): xfwm4-WARNING **: 16:38:17.313: output size (1470x857) and logical screen size (1448x857) do not match
+
+(xfwm4:1202): xfwm4-WARNING **: 16:38:17.608: output size (1552x857) and logical screen size (1470x857) do not match
+
+** (xfdesktop:1210): CRITICAL **: 16:38:18.059: xfce_backdrop_loader_closed_cb: assertion 'XFCE_IS_BACKDROP(backdrop)' failed
+
+** (xfdesktop:1210): CRITICAL **: 16:38:18.059: xfce_backdrop_loader_closed_cb: assertion 'XFCE_IS_BACKDROP(backdrop)' failed
+
+** (xfdesktop:1210): CRITICAL **: 16:38:18.083: xfce_backdrop_loader_closed_cb: assertion 'XFCE_IS_BACKDROP(backdrop)' failed
+
+(xfwm4:1202): xfwm4-WARNING **: 16:38:38.759: output size (1920x950) and logical screen size (1552x857) do not match
+
+(xfwm4:1202): xfwm4-WARNING **: 16:38:40.647: output size (1552x857) and logical screen size (1920x950) do not match
+
+(xfwm4:1202): xfwm4-WARNING **: 16:38:44.123: output size (892x857) and logical screen size (1552x857) do not match
+
+(xfwm4:1202): xfwm4-WARNING **: 16:38:44.204: output size (722x857) and logical screen size (892x857) do not match
+
+(xfwm4:1202): xfwm4-WARNING **: 16:38:44.237: output size (653x857) and logical screen size (722x857) do not match
+
+(xfwm4:1202): xfwm4-WARNING **: 16:38:44.251: output size (653x857) and logical screen size (722x857) do not match
+
+(xfwm4:1202): xfwm4-WARNING **: 16:38:44.302: output size (610x857) and logical screen size (722x857) do not match
+
+(xfwm4:1202): xfwm4-WARNING **: 16:38:44.328: output size (605x857) and logical screen size (653x857) do not match
+
+(xfwm4:1202): xfwm4-WARNING **: 16:38:44.335: output size (605x857) and logical screen size (653x857) do not match
+
+(xfwm4:1202): xfwm4-WARNING **: 16:38:44.370: output size (605x857) and logical screen size (610x857) do not match
+
+** (xfdesktop:1210): CRITICAL **: 16:38:44.390: xfce_backdrop_loader_closed_cb: assertion 'XFCE_IS_BACKDROP(backdrop)' failed
+
+** (xfdesktop:1210): CRITICAL **: 16:38:44.391: xfce_backdrop_loader_closed_cb: assertion 'XFCE_IS_BACKDROP(backdrop)' failed
+
+** (xfdesktop:1210): CRITICAL **: 16:38:44.392: xfce_backdrop_loader_closed_cb: assertion 'XFCE_IS_BACKDROP(backdrop)' failed
+
+** (xfdesktop:1210): CRITICAL **: 16:38:44.440: xfce_backdrop_loader_closed_cb: assertion 'XFCE_IS_BACKDROP(backdrop)' failed
+
+(xfwm4:1202): xfwm4-WARNING **: 16:38:44.660: output size (646x857) and logical screen size (605x857) do not match
+
+(xfwm4:1202): xfwm4-WARNING **: 16:38:44.662: output size (646x857) and logical screen size (629x857) do not match
+
+** (xfdesktop:1210): CRITICAL **: 16:38:44.782: xfce_backdrop_loader_closed_cb: assertion 'XFCE_IS_BACKDROP(backdrop)' failed
+
+(xfwm4:1202): xfwm4-WARNING **: 16:38:44.909: output size (648x857) and logical screen size (646x857) do not match
+
+(xfwm4:1202): xfwm4-WARNING **: 10:08:53.806: output size (958x940) and logical screen size (648x857) do not match
+
+(xfwm4:1202): xfwm4-WARNING **: 10:13:40.585: output size (1006x940) and logical screen size (958x940) do not match
+
+(xfwm4:1202): xfwm4-WARNING **: 10:13:41.440: output size (1143x940) and logical screen size (1006x940) do not match
+
+(xfwm4:1202): xfwm4-WARNING **: 10:13:41.513: output size (1168x940) and logical screen size (1143x940) do not match
+
+(xfwm4:1202): xfwm4-WARNING **: 10:13:41.620: output size (1202x940) and logical screen size (1168x940) do not match
+
+** (xfdesktop:1210): CRITICAL **: 10:13:41.686: xfce_backdrop_loader_closed_cb: assertion 'XFCE_IS_BACKDROP(backdrop)' failed
+
+** (xfdesktop:1210): CRITICAL **: 10:13:41.686: xfce_backdrop_loader_closed_cb: assertion 'XFCE_IS_BACKDROP(backdrop)' failed
+
+(xfwm4:1202): xfwm4-WARNING **: 10:13:42.604: output size (804x940) and logical screen size (1202x940) do not match
+
+(xfwm4:1202): xfwm4-WARNING **: 10:13:42.612: output size (804x940) and logical screen size (852x940) do not match
+
+(xfwm4:1202): xfwm4-WARNING **: 10:13:42.712: output size (730x940) and logical screen size (804x940) do not match
+
+(xfwm4:1202): xfwm4-WARNING **: 10:13:42.777: output size (718x940) and logical screen size (730x940) do not match
+
+** (xfdesktop:1210): CRITICAL **: 10:13:42.853: xfce_backdrop_loader_closed_cb: assertion 'XFCE_IS_BACKDROP(backdrop)' failed
+
+** (xfdesktop:1210): CRITICAL **: 10:13:42.853: xfce_backdrop_loader_closed_cb: assertion 'XFCE_IS_BACKDROP(backdrop)' failed
+
+** (xfdesktop:1210): CRITICAL **: 10:13:42.859: xfce_backdrop_loader_closed_cb: assertion 'XFCE_IS_BACKDROP(backdrop)' failed
+
+(xfwm4:1202): xfwm4-WARNING **: 10:13:43.709: output size (866x940) and logical screen size (718x940) do not match
+
+(xfwm4:1202): xfwm4-WARNING **: 10:13:43.803: output size (919x940) and logical screen size (866x940) do not match
+
+** (xfdesktop:1210): CRITICAL **: 10:13:43.861: xfce_backdrop_loader_closed_cb: assertion 'XFCE_IS_BACKDROP(backdrop)' failed
+
+(xfwm4:1202): xfwm4-WARNING **: 10:13:43.917: output size (954x940) and logical screen size (919x940) do not match
+
+(xfwm4:1202): xfwm4-WARNING **: 10:13:44.035: output size (984x940) and logical screen size (954x940) do not match
+
+(xfwm4:1202): xfwm4-WARNING **: 10:13:44.659: output size (957x940) and logical screen size (984x940) do not match
+
+(xfwm4:1202): xfwm4-WARNING **: 10:13:44.733: output size (951x940) and logical screen size (957x940) do not match
+
+** (xfdesktop:1210): CRITICAL **: 10:13:44.809: xfce_backdrop_loader_closed_cb: assertion 'XFCE_IS_BACKDROP(backdrop)' failed
+
+(xfwm4:1202): xfwm4-WARNING **: 10:13:45.012: output size (920x940) and logical screen size (951x940) do not match
+
+(xfwm4:1202): xfwm4-WARNING **: 10:13:47.221: output size (648x857) and logical screen size (920x940) do not match
+
+(xfwm4:1202): xfwm4-WARNING **: 10:13:48.197: output size (920x940) and logical screen size (648x857) do not match
+
+(xfwm4:1202): xfwm4-WARNING **: 10:14:23.925: output size (648x857) and logical screen size (920x940) do not match
+
+(xfwm4:1202): xfwm4-WARNING **: 10:14:29.493: output size (920x940) and logical screen size (648x857) do not match
+
+(xfwm4:1202): xfwm4-WARNING **: 10:16:03.846: output size (1920x950) and logical screen size (920x940) do not match
+
+(xfwm4:1202): xfwm4-WARNING **: 10:16:27.870: output size (648x857) and logical screen size (1920x950) do not match
+
+(xfwm4:1202): xfwm4-WARNING **: 10:16:38.469: output size (958x940) and logical screen size (648x857) do not match
+
+(xfwm4:1202): xfwm4-WARNING **: 10:17:51.100: output size (938x940) and logical screen size (958x940) do not match
+
+(xfwm4:1202): xfwm4-WARNING **: 10:17:51.501: output size (915x940) and logical screen size (938x940) do not match
+
+(xfwm4:1202): xfwm4-WARNING **: 10:17:51.994: output size (935x940) and logical screen size (915x940) do not match
+
+(xfwm4:1202): xfwm4-WARNING **: 10:17:52.180: output size (939x940) and logical screen size (935x940) do not match
+
+(xfwm4:1202): xfwm4-WARNING **: 10:17:52.181: output size (939x940) and logical screen size (938x940) do not match
+
+(xfwm4:1202): xfwm4-WARNING **: 10:17:58.858: output size (1067x940) and logical screen size (939x940) do not match
+
+(xfwm4:1202): xfwm4-WARNING **: 10:17:58.859: output size (1067x940) and logical screen size (1066x940) do not match
+
+(xfwm4:1202): xfwm4-WARNING **: 10:17:58.939: output size (1104x940) and logical screen size (1067x940) do not match
+
+** (xfdesktop:1210): CRITICAL **: 10:17:58.969: xfce_backdrop_loader_closed_cb: assertion 'XFCE_IS_BACKDROP(backdrop)' failed
+
+(xfwm4:1202): xfwm4-WARNING **: 10:17:59.055: output size (1105x940) and logical screen size (1104x940) do not match
+
+(xfwm4:1202): xfwm4-WARNING **: 10:18:00.292: output size (804x940) and logical screen size (1105x940) do not match
+
+(xfwm4:1202): xfwm4-WARNING **: 10:18:00.382: output size (711x940) and logical screen size (804x940) do not match
+
+(xfwm4:1202): xfwm4-WARNING **: 10:18:00.442: output size (646x940) and logical screen size (711x940) do not match
+
+(xfwm4:1202): xfwm4-WARNING **: 10:18:00.493: output size (558x940) and logical screen size (646x940) do not match
+
+(xfwm4:1202): xfwm4-WARNING **: 10:18:00.545: output size (535x940) and logical screen size (558x940) do not match
+
+** (xfdesktop:1210): CRITICAL **: 10:18:00.675: xfce_backdrop_loader_closed_cb: assertion 'XFCE_IS_BACKDROP(backdrop)' failed
+
+** (xfdesktop:1210): CRITICAL **: 10:18:00.697: xfce_backdrop_loader_closed_cb: assertion 'XFCE_IS_BACKDROP(backdrop)' failed
+
+** (xfdesktop:1210): CRITICAL **: 10:18:00.697: xfce_backdrop_loader_closed_cb: assertion 'XFCE_IS_BACKDROP(backdrop)' failed
+
+(xfwm4:1202): xfwm4-WARNING **: 10:18:00.714: output size (503x940) and logical screen size (535x940) do not match
+
+** (xfdesktop:1210): CRITICAL **: 10:18:00.754: xfce_backdrop_loader_closed_cb: assertion 'XFCE_IS_BACKDROP(backdrop)' failed
+
+(xfwm4:1202): xfwm4-WARNING **: 10:18:00.781: output size (472x940) and logical screen size (503x940) do not match
+
+** (xfdesktop:1210): CRITICAL **: 10:18:00.865: xfce_backdrop_loader_closed_cb: assertion 'XFCE_IS_BACKDROP(backdrop)' failed
+
+(xfwm4:1202): xfwm4-WARNING **: 10:18:01.729: output size (1014x940) and logical screen size (472x940) do not match
+
+(xfwm4:1202): xfwm4-WARNING **: 10:18:01.760: output size (1032x940) and logical screen size (1014x940) do not match
+
+** (xfdesktop:1210): CRITICAL **: 10:18:01.761: xfce_backdrop_loader_closed_cb: assertion 'XFCE_IS_BACKDROP(backdrop)' failed
+
+(xfwm4:1202): xfwm4-WARNING **: 10:18:01.841: output size (1063x940) and logical screen size (1032x940) do not match
+
+(xfwm4:1202): xfwm4-WARNING **: 10:18:01.908: output size (1072x940) and logical screen size (1063x940) do not match
+
+** (xfdesktop:1210): CRITICAL **: 10:18:01.977: xfce_backdrop_loader_closed_cb: assertion 'XFCE_IS_BACKDROP(backdrop)' failed
+
+** (xfdesktop:1210): CRITICAL **: 10:18:01.977: xfce_backdrop_loader_closed_cb: assertion 'XFCE_IS_BACKDROP(backdrop)' failed
+
+** (xfdesktop:1210): CRITICAL **: 10:18:01.980: xfce_backdrop_loader_closed_cb: assertion 'XFCE_IS_BACKDROP(backdrop)' failed
+
+(xfwm4:1202): xfwm4-WARNING **: 10:18:06.285: output size (1024x692) and logical screen size (1072x940) do not match
+
+(xfwm4:1202): xfwm4-WARNING **: 10:18:06.318: output size (1023x690) and logical screen size (1024x692) do not match
+
+(xfwm4:1202): xfwm4-WARNING **: 10:18:06.388: output size (1020x681) and logical screen size (1023x690) do not match
+
+** (xfdesktop:1210): CRITICAL **: 10:18:06.448: xfce_backdrop_loader_closed_cb: assertion 'XFCE_IS_BACKDROP(backdrop)' failed
+
+(xfwm4:1202): xfwm4-WARNING **: 10:18:12.140: output size (1364x681) and logical screen size (1020x681) do not match
+
+(xfwm4:1202): xfwm4-WARNING **: 10:18:12.141: output size (1364x681) and logical screen size (1332x681) do not match
+
+(xfwm4:1202): xfwm4-WARNING **: 10:18:12.211: output size (1439x681) and logical screen size (1364x681) do not match
+
+(xfwm4:1202): xfwm4-WARNING **: 10:18:12.293: output size (1518x681) and logical screen size (1439x681) do not match
+
+(xfwm4:1202): xfwm4-WARNING **: 10:18:12.365: output size (1581x681) and logical screen size (1518x681) do not match
+
+** (xfdesktop:1210): CRITICAL **: 10:18:12.401: xfce_backdrop_loader_closed_cb: assertion 'XFCE_IS_BACKDROP(backdrop)' failed
+
+(xfwm4:1202): xfwm4-WARNING **: 10:18:12.405: output size (1602x681) and logical screen size (1581x681) do not match
+
+(xfwm4:1202): xfwm4-WARNING **: 10:18:12.405: output size (1602x681) and logical screen size (1581x681) do not match
+
+(xfwm4:1202): xfwm4-WARNING **: 10:18:12.482: output size (1624x681) and logical screen size (1602x681) do not match
+
+** (xfdesktop:1210): CRITICAL **: 10:18:12.564: xfce_backdrop_loader_closed_cb: assertion 'XFCE_IS_BACKDROP(backdrop)' failed
+
+** (xfdesktop:1210): CRITICAL **: 10:18:12.571: xfce_backdrop_loader_closed_cb: assertion 'XFCE_IS_BACKDROP(backdrop)' failed
+
+** (xfdesktop:1210): CRITICAL **: 10:18:12.571: xfce_backdrop_loader_closed_cb: assertion 'XFCE_IS_BACKDROP(backdrop)' failed
+
+** (xfdesktop:1210): CRITICAL **: 10:18:12.577: xfce_backdrop_loader_closed_cb: assertion 'XFCE_IS_BACKDROP(backdrop)' failed
+
+** (xfdesktop:1210): CRITICAL **: 10:18:12.582: xfce_backdrop_loader_closed_cb: assertion 'XFCE_IS_BACKDROP(backdrop)' failed
+
+** (xfdesktop:1210): CRITICAL **: 10:18:12.582: xfce_backdrop_loader_closed_cb: assertion 'XFCE_IS_BACKDROP(backdrop)' failed
+
+(xfwm4:1202): xfwm4-WARNING **: 10:18:13.286: output size (1732x681) and logical screen size (1624x681) do not match
+
+(xfwm4:1202): xfwm4-WARNING **: 10:18:13.774: output size (1099x681) and logical screen size (1732x681) do not match
+
+(xfwm4:1202): xfwm4-WARNING **: 10:18:13.828: output size (1065x681) and logical screen size (1099x681) do not match
+
+(xfwm4:1202): xfwm4-WARNING **: 10:18:13.873: output size (1059x681) and logical screen size (1065x681) do not match
+
+(xfwm4:1202): xfwm4-WARNING **: 10:18:13.925: output size (1018x681) and logical screen size (1059x681) do not match
+
+(xfwm4:1202): xfwm4-WARNING **: 10:18:13.959: output size (1014x681) and logical screen size (1018x681) do not match
+
+** (xfdesktop:1210): CRITICAL **: 10:18:14.020: xfce_backdrop_loader_closed_cb: assertion 'XFCE_IS_BACKDROP(backdrop)' failed
+
+** (xfdesktop:1210): CRITICAL **: 10:18:14.020: xfce_backdrop_loader_closed_cb: assertion 'XFCE_IS_BACKDROP(backdrop)' failed
+
+(xfwm4:1202): xfwm4-WARNING **: 10:18:14.058: output size (1013x681) and logical screen size (1014x681) do not match
+
+(xfwm4:1202): xfwm4-WARNING **: 10:18:14.091: output size (996x681) and logical screen size (1013x681) do not match
+
+(xfwm4:1202): xfwm4-WARNING **: 10:18:14.157: output size (919x681) and logical screen size (996x681) do not match
+
+(xfwm4:1202): xfwm4-WARNING **: 10:18:14.195: output size (910x681) and logical screen size (919x681) do not match
+
+(xfwm4:1202): xfwm4-WARNING **: 10:18:14.262: output size (800x681) and logical screen size (910x681) do not match
+
+(xfwm4:1202): xfwm4-WARNING **: 10:18:14.351: output size (781x681) and logical screen size (800x681) do not match
+
+** (xfdesktop:1210): CRITICAL **: 10:18:14.355: xfce_backdrop_loader_closed_cb: assertion 'XFCE_IS_BACKDROP(backdrop)' failed
+
+** (xfdesktop:1210): CRITICAL **: 10:18:14.390: xfce_backdrop_loader_closed_cb: assertion 'XFCE_IS_BACKDROP(backdrop)' failed
+
+** (xfdesktop:1210): CRITICAL **: 10:18:14.390: xfce_backdrop_loader_closed_cb: assertion 'XFCE_IS_BACKDROP(backdrop)' failed
+
+(xfwm4:1202): xfwm4-WARNING **: 10:18:14.933: output size (865x681) and logical screen size (781x681) do not match
+
+(xfwm4:1202): xfwm4-WARNING **: 10:18:20.239: output size (939x940) and logical screen size (865x681) do not match
+
+(xfwm4:1202): xfwm4-WARNING **: 10:23:46.538: output size (1920x950) and logical screen size (939x940) do not match
+
+(xfwm4:1202): xfwm4-WARNING **: 10:50:11.700: output size (865x681) and logical screen size (1920x950) do not match
+
+(xfwm4:1202): xfwm4-WARNING **: 10:50:45.592: output size (958x940) and logical screen size (865x681) do not match
+
+(xfce4-terminal:14772): Gdk-CRITICAL **: 10:51:49.924: gdk_window_get_window_type: assertion 'GDK_IS_WINDOW (window)' failed
